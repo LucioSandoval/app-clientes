@@ -1,1 +1,1 @@
-# app-clientes
+# app-clientes desarrollada en NodeJS con Express, React para el frontend y MongoDB como base de datos alojada en la nube(AWS)
