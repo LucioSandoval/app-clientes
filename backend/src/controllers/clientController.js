@@ -6,6 +6,7 @@ clientController.listClients= async (req, res) =>{
     const clients= await Client.find();
     res.json({clients:clients});
 }
+
 clientController.detailUser = async (req,res) =>{
     const client = await Client.findById(req.params.id);
     res.json({client: client});
